@@ -435,6 +435,32 @@ body:not(.user-is-tabbing) a:focus {
         transform: scale(.8);
     }
 }
+/* --------------------------------------- */
+/* ----- Skills ----- */
+/* --------------------------------------- */
+
+
+
+.skill__boxes {
+    display: grid;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  align-items: center;
+  grid-template-columns: 300px 300px 300px 300px ;
+  grid-gap: 5px;
+  
+}
+.box {
+    
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 75%;
+  
+}
 
 /* --------------------------------------- */
 /* ----- Work ----- */

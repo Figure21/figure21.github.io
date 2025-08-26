@@ -39,10 +39,13 @@
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
+ 
+    --darkred: var(--pink); 
+    --thumb: #222;        
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
-    --container-medium-width: 700px; 
+    --container-medium-width: 700px;
     --container-small-width: 500px;
 
     --gutter-huge: 12rem;
@@ -73,7 +76,7 @@ body {
     color: var(--white-1);
     line-height: var(--line-height-normal);
     background: var(--black);
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .row {
@@ -637,3 +640,159 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+/* --------------------------------------- */
+/* ----- Blog ----- */
+/* --------------------------------------- */
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px; 
+  padding-top: 10px;
+
+
+  scrollbar-color: var(--darkred) var(--thumb);
+  scrollbar-width: thin;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  background: #1c1c1c; 
+  padding: 2.5rem; 
+  border-radius: 8px; 
+  border: 1px solid #222; 
+
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:not(.card--enlarged):hover {
+  cursor: pointer; 
+  transform: translateY(-5px); 
+  border-color: var(--pink); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.card .card-link-wrapper {
+  margin-top: auto;
+}
+
+
+.cards::-webkit-scrollbar {
+  height: 12px;
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--darkred);
+  border: 3px solid var(--black); 
+}
+
+.cards::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+
+
+@media (min-width: 500px) {
+  .card {
+    flex-basis: calc(50% - 10px);
+  }
+  .card:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .card {
+    flex-basis: calc(calc(100% / 3) - 20px);
+  }
+  .card:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .card {
+    flex-basis: calc(25% - 30px);
+  }
+  .card:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+/* --------------------------------------- */
+/* ----- Card Enlargement Styles ----- */
+/* --------------------------------------- */
+
+/* The dark background overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999; 
+  display: none; 
+}
+
+
+.card .card-full-content,
+.card .card__close-btn {
+  display: none;
+}
+
+
+.card--enlarged {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;  
+  max-width: 800px; 
+  height: 80vh; 
+  overflow-y: auto; 
+  z-index: 1000;  
+  background: #1a1a1a;
+  padding: 2rem 3rem;
+  border: 1px solid var(--pink);
+}
+
+
+.card--enlarged .card-full-content {
+  display: block;
+}
+
+
+.card--enlarged .card-link-wrapper {
+  display: none;
+}
+
+
+.card--enlarged .card__close-btn {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* To make the enlargement smooth */
+/*.card {
+  transition: all 0.3s ease-in-out;
+}*/
+

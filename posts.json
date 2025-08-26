@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Uge 34",
+    "summary": "Portefølje og oplæsning på unity",
+    "fullContent": "<p>Denne uge blev primært brugt på at sætte op porteføljen, finde et template at arbejde ud fra.</p><p>Fik også gennemgået tutorials og andet vedrørende unity, så jeg er bedre forberedt til starten af spiludviklingen.</p><b>Opsummering/TL:DR</b><ul><li>Fik opsat portefølje</li><li>Tilføjede skills section til porteføljen</li><li>Lavede tutorials til unity</li> </ul>"
+  },
+  {
+    "id": 2,
+    "title": "Uge 35",
+    "summary": "Blog indlæg og JavaScript",
+    "fullContent": "<p>Uge 35 er blevet brugt på at få sat dettte blog indlægssystem op at køre. Planen er også at sætte mig ind i hvordan jeg kan overføre unity til en mobil app.</p><ul><li>Tilføjede blog system til portefølje</li></ul>"
+  },
+  {
+    "id": 3,
+    "title": "Uge 36",
+    "summary": "TBD",
+    "fullContent": "<p>Du må vente spændt</p>"
+  },
+  {
+    "id": 4,
+    "title": "Uge 37",
+    "summary": "TBD",
+    "fullContent": "<p>Du må vente spændt</p>"
+  },
+  {
+    "id": 5,
+    "title": "Uge 38",
+    "summary": "TBD",
+    "fullContent": "<p>Du må vente spændt</p>"
+  }
+  
+]

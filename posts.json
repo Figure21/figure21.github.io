@@ -14,20 +14,20 @@
   {
     "id": 3,
     "title": "Uge 36",
-    "summary": "TBD",
-    "fullContent": "<p>Du må vente spændt</p>"
+    "summary": "Start af projekt",
+    "fullContent": "<p>Vi brugte meget tid på at researche unity og hvilke tutorials der kunne være relevant til projektet</p><p>Men starten af projektet blev påbegyndt.</p><ul><li>Fik startet på mappet</li><li>Undersøgte tilemaps til projektet.</li></ul>"
   },
   {
     "id": 4,
     "title": "Uge 37",
-    "summary": "TBD",
-    "fullContent": "<p>Du må vente spændt</p>"
+    "summary": "Assets og første map",
+    "fullContent": "<p>Denne uge var fokuseret på at jeg skulle lave et test map, ved at bruge de tilemaps som jeg researchede den forrige uge.</p><p>Fandt også nogle gratis assets vi kunne bruge til projektet, men vi mangler flere.</p><p>Jeg er også langsomt startet op på at undersøge hvordan vi kunne lave procedurally generated maps</p><p>Det ville være meget mere optimalt ift mit tidsforbrug.</p><ul><li>Første test map lavet, som forsøgsbane</li><li>Fandt assets til projekt</li><li>Research på procedurally generated maps.</li></ul>"
   },
   {
     "id": 5,
     "title": "Uge 38",
-    "summary": "TBD",
-    "fullContent": "<p>Du må vente spændt</p>"
+    "summary": "Procedural Generation",
+    "fullContent": "<p>TBD</p>"
   }
   
 ]

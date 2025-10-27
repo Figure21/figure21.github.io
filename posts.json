@@ -49,7 +49,7 @@
     "fullContent": "<p>Fik påbegyndt API delen, vedrørende mit andet guild.</p><p>Følte lidt at jeg havde glemt nogle af de ting som jeg havde lært i undervisningen i relation til API. Så jeg valgte at give mig selv en refresher og lavede et basisk test projekt.</p><p>Projektet bestod bare af en simpel version af en bank app som havde bruger registrering, som også havde nogle ‘penge’. Opsatte bare en simpel RestAPI som brugte en lokal SQL server.</p>"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Uge 43",
     "summary": "API research",
     "fullContent": "<p>Ugen blev primært brugt på at se videoer og tage noter til API, de forskellige former for API man kunne benytte sig af.</p><p>Prøvede også at finde på nogle måder vi kunne inkludere API i projektet, på en sjov måde.</p><p>Har også læst lidt op på noget teori til spiludvilings guildet, da det var lidt manglende. Tænker næste uge skal bruges på at skrive teori og dokumentation til projektet.</p>"

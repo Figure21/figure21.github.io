@@ -27,7 +27,20 @@
     "id": 5,
     "title": "Uge 38",
     "summary": "Procedural Generation",
-    "fullContent": "<p>TBD</p>"
+    "fullContent": "<p>Er lige så stille begyndt at undersøge hvilke måder der ville være bedst at indføre procedural map generation til spillet. Jeg er startet på map generation ved hjælp af en tutorial, da det er et meget kompleks emne.</p>"
+  },
+
+  {
+    "id": 6,
+    "title": "Uge 39",
+    "summary": "Unity Projekt",
+    "fullContent": "<p>Så nogle online give et tip om at det ville være en god ide at prøve at genskabe simple populære spil, uden at følge en tutorial eller lignende for bedre lære unity. Jeg valgte at lave Flappy bird, da det var et af de forslag som foreslog.</p><p>Fik lavet en simpel kopi af flappy bird, med score, restart, væggene som bevæger sig og muligheden for at kunne dø i spillet. </p><p>Lærte mega meget af dette projekt, da jeg ikke følte jeg havde lavet nok i unity udover nogle små emner på hovedprojektet.</p>"
+  },
+  {
+    "id": 7,
+    "title": "Uge 40",
+    "summary": "RestAPI og SQL",
+    "fullContent": "<p>Der skete ikke så meget ift. Projektet denne uge, da jeg havde travlt med at finde en praktikplads og skulle til samtaler.</p><p>Fik påbegyndt API delen, vedrørende mit andet guild.</p><p>Følte lidt at jeg havde glemt nogle af de ting som jeg havde lært i undervisningen i relation til API. Så jeg valgte at give mig selv en refresher og lavede et basisk test projekt.</p><p>Projektet bestod bare af en simpel version af en bank app som havde bruger registrering, som også havde nogle ‘penge’. Opsatte bare en simpel RestAPI som brugte en lokal SQL server.</p>"
   }
   
 ]

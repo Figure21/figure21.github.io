@@ -94,15 +94,18 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 8,
-            title: "Uge 45",
+            title: "Uge 45 - Unity og API",
             body: `
-                <p></p>
-                <p></p>
+                <p>De sidste to uger blev brugt på at prøve og implementere en simpel version af RestAPI i unity. Det tog lidt tid at forstå hvordan unity håndterede API calls. Endte med at lave endnu et ASP.NET Api project til at håndtere API delen og så satte jeg en SQL Server op til spillet. 
+                Endte med at bruge alt for meget tid på at implementere en ScoreFetcher, havde overset jeg havde skrevet porten forkert i inspectoren inde i unity.</p>
+                <img src="./blogimages/BlogPicture_Week45_1.png" alt="API Fetch">
+                <p>Nuværende er det bare et simpel fetch som er sat op, men meget af logikken ville kunne genbruges.</p>
+                <img src="./blogimages/BlogPicture_Week45_2.png" alt="ScoreFetcher">
             `
         },
         {
             id: 9,
-            title: "Uge 45",
+            title: "Uge 46",
             body: `
                 <p></p>
                 <p></p>
@@ -110,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 10,
-            title: "Uge 46",
+            title: "Uge 47",
             body: `
                 <p></p>
                 <p></p>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog | Andreas Adler Juhl Petersen</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+
+    <!-- ***** Header ***** -->
+    <header class="header" role="banner" id="top">
+        <div class="row">
+            <nav class="nav" role="navigation">
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__text-box row">
+            <div class="header__text">
+                <h1 class="heading-primary">
+                    <span>My Blog</span>
+                </h1>
+                <p>A collection of my thoughts and writings.</p>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="blog-container">
+            <!-- Left-side Menu -->
+            <aside class="blog-menu">
+                <h2>Posts</h2>
+                <ul id="blog-posts-list">
+                    <!-- Blog post links will be inserted here by JavaScript -->
+                </ul>
+            </aside>
+
+            <!-- Blog Post Content -->
+            <article class="blog-content" id="blog-post-display">
+                <h2 id="blog-title">Welcome to my Blog!</h2>
+                    <p id="blog-date" class="blog-meta"></p>
+                    <div id="blog-body">
+                    <p>Select a post from the menu on the left to read it.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- ***** Footer ***** -->
+    <footer role="contentinfo" class="footer">
+        <div class="row">
+            <p>&copy; 2025 Andreas Adler Juhl Petersen</p>
+        </div>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+</html>

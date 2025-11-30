@@ -105,10 +105,11 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 9,
-            title: "Uge 46",
+            title: "Uge 46 - API Teori og Audio",
             body: `
-                <p></p>
-                <p></p>
+                <p>Ugen blev primært brug på at læse teori og lignende til API. Det var meget fokuseret på ting vedrørende sikkerhed, såsom tokens til authentication. Venter på at en gruppe kammerat bliver færdig med UI, så jeg kan implementere API til et leaderboard. 
+                Men meget af læsningen og videns søgningen var også fokuseret på hvordan dataen bliver delt fra de forskellige punkter. </p>
+                <p>Undersøgte også hvordan man optimalt ville implementere audio i et unity spil. Da jeg lavede min flappy bird kopi, der havde jeg problemer med at de forskellige lyde ville overlap og erstatte den anden lyd. Ville nok være en god ide at benytte sig af en state machine eller lignende.</p>
             `
         },
         {
